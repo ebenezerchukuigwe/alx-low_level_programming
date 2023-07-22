@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _isdigit - check if paramate is a digit or character 
+ * _isdigit - check if paramate is a digit or character
  *
- * @c: parameter 
+ * @c: parameter
  * Return: 1 if its a number and 0 otherwise
  */
 int _isdigit(int c)
