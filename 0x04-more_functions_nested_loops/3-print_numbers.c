@@ -1,16 +1,17 @@
 #include "main.h"
-/**
- * print_numbers - print numbers range 0 - 9
- *
- * Return: no return
- */
-void print_numbers(void);
-{
-	int pr;
 
-	for (pr = 48; pr <= 57; pr++)
+/**
+ * print_numbers - print 0-9
+ * return: void
+ */
+
+void print_numbers(void)
+{
+	char c;
+
+	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(pr);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
